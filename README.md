@@ -1,6 +1,6 @@
-# lws-admin
+# monero-lws-admin
 
-This is a simple web-based GUI for managing accounts on your Monero Light Wallet Server by connecting to your LWS's Admin Rest server endpoint (a hot new feature on LWS develop branch). 
+This is a simple web-based GUI for managing accounts on your Monero Light Wallet Server by connecting to your LWS's Admin Rest server endpoint (a hot new feature on LWS develop branch).  To use it, you'll need to have the admin server flag enabled on your LWS, and you'll need a valid admin key.  
 
 For today, this is built for Uncle Jims / managing just a handful of accounts- there's no pagination, no tables, just a simple dashboard.  If you're a corporate entity with 600000000 accounts, this tool won't work for you. 
 
