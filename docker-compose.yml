@@ -1,0 +1,12 @@
+version: "3"
+services:
+  monero-lws-admin:
+    container_name: monero-lws-admin
+    build:
+      context: .
+      dockerfile: DockerFile
+    ports:
+      - "3000:3000"
+    environment:
+      - NUXT_LWS_API_KEY=yourapikey
+      - NUXT_LWS_ADMIN_URL=http://your-ip:1234
