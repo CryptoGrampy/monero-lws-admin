@@ -8,6 +8,12 @@ Warning: This tool is for internal, private network use only. Do *not* expose pu
 
 Make sure to take extreme caution when enabling the admin-rest-server flag on your Light Wallet Server- i.e. you may have your LWS publically available, but you will likely want to run your admin server on a different port that is only available from localhost or your internal network.
 
+## Features:
+
+- View and approve account requests
+- Disable accounts
+- View active and inactive accounts
+- Add new accounts
 
 ## Install / Run
 
