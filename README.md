@@ -13,6 +13,7 @@ Make sure to take extreme caution when enabling the admin-rest-server flag on yo
 - View and approve account requests
 - Disable accounts
 - View active and inactive accounts
+- Rescan active accounts
 - Add new accounts
 
 ## Install / Run
