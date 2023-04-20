@@ -18,7 +18,7 @@ Make sure to take extreme caution when enabling the admin-rest-server flag on yo
 
 ## Install / Run
 
-Using Node/JS: 
+Using Node (18) /JS: 
 
 ```bash
 npm i && NUXT_LWS_API_KEY=yourapikey NUXT_LWS_ADMIN_URL=http://your-ip:1234 npm run dev
