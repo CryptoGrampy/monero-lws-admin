@@ -16,6 +16,16 @@ Make sure to take extreme caution when enabling the admin-rest-server flag on yo
 - Rescan active accounts
 - Add new accounts
 
+## Images
+
+
+<center> 
+<figure>
+<img src="doc-assets/monero-lws-admin.png" width="800">
+<figcaption>Monero LWS Admin Dashboard</figcaption>
+</figure>
+</center>
+
 ## Install / Run
 
 Using Node (18) /JS: 
@@ -24,12 +34,24 @@ Using Node (18) /JS:
 npm i && NUXT_LWS_API_KEY=yourapikey NUXT_LWS_ADMIN_URL=http://your-ip:1234 npm run dev
 ```
 
+If you don't want to set the environment variables inline, you can create a .env file in the base directory of the repo and add your environment variables there:
+
+```bash
+# .env
+NUXT_LWS_API_KEY=yourapikey
+NUXT_LWS_ADMIN_URL=http://your-admin-ip:1234
+```
+
 Docker: 
 
 ```bash
 # First set your environment variables - NUXT_LWS_API_KEY and NUXT_LWS_ADMIN_URL in docker-compose.yml
 docker compose up -d 
 ```
+
+## Future
+
+I will continue to add features as I need them, but I'm very welcome to PR's, style updates, etc.
 
 ## Donate
 
